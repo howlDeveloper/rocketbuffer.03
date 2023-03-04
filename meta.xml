@@ -5,4 +5,5 @@
 
   <!-- SharedScripts-->
   <script src="src/core/listener.lua" type="shared" />
+  <script src="src/config/userSettings.lua" type="shared"/>
 </meta>

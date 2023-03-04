@@ -5,3 +5,7 @@ end)
 addCommandHandler("returnProducts", function(_)
   returnProductsList()
 end)
+
+addCommandHandler("setLanguage", function(_, lang)
+  setLanguageTo(lang)
+end)
