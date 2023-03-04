@@ -1,7 +1,7 @@
 local products = {}
 
 -- @params
--- username: string
+-- productName: string
 
 -- @returns boolean
 local function productExist(productName)
@@ -11,12 +11,12 @@ local function productExist(productName)
 end
  
 -- @params
--- password: string
--- username: string
+-- productName: string
+-- productPrice: número/int
 
 -- @return boolean
 function createProduct(productName, price)
-  if (type(productName) ~= "string" and type(price) ~= ("string" or "number")) then
+  if (type(productName) ~= "string" and type(price) ~= "number") then
       return false
   end
 
@@ -42,6 +42,8 @@ function returnProductsList()
 end
 
 -- @params
+-- Lang: string 
+-- Lang examples: PT-BR or EN
 
 -- @return string
 function setLanguageTo(lang)
