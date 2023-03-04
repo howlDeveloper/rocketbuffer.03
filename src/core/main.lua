@@ -43,7 +43,7 @@ end
 
 -- @params
 -- Lang: string 
--- Lang:examples: PT-BR or EN
+-- Lang: examples: PT-BR or EN
 
 -- @return string
 function setLanguageTo(lang)
