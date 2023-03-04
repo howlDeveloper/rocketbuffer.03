@@ -43,13 +43,13 @@ end
 
 -- @params
 -- Lang: string 
--- Lang examples: PT-BR or EN
+-- Lang:examples: PT-BR or EN
 
 -- @return string
 function setLanguageTo(lang)
   if (lang == language) then
     if (language == "PT-BR") then
-      return outputChatBox("bip bop... a linguagem ja está em PT-BR", 255, 0, 0)
+      return outputChatBox("bip bop... a lingua ja está em PT-BR", 255, 0, 0)
     elseif (language == "EN") then
       return outputChatBox("bip bop.. the language is already in EN", 255, 0, 0)
     end
@@ -60,6 +60,6 @@ function setLanguageTo(lang)
     return outputChatBox("language: PT-BR")
   elseif (lang == "EN") then
     language = lang
-    return outputChatBox("linguagem: EN")
+    return outputChatBox("lingua: EN")
   end
 end
