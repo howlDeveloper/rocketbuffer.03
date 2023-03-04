@@ -1,0 +1,8 @@
+<meta>
+ <!-- Client Scripts -->
+  <script src="src/core/main.lua" type="client" />
+  <script src="src/utils/utils.lua" type="client" />
+
+  <!-- SharedScripts-->
+  <script src="src/core/listener.lua" type="shared" />
+</meta>
