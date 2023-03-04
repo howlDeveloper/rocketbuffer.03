@@ -12,7 +12,7 @@ end
  
 -- @params
 -- productName: string
--- productPrice: número/int
+-- productPrice: number/int
 
 -- @return boolean
 function createProduct(productName, price)
