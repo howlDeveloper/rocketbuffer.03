@@ -1,4 +1,4 @@
-### Sistema de criação de produtos
+### :coin: Sistema de criação de produtos :coin:
 
 Esse sistema é apenas um teste, ele cria produtos usando apenas tabelas, sem precisar de banco de dados
 
